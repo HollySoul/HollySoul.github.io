@@ -37,6 +37,8 @@ img{
 
 
 	.but{
+		display: inline-block;
+		text-decoration: none;
 box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 border-radius: 50px;
 background-color: #ffffff;
@@ -161,6 +163,7 @@ text-align: center;
 	margin-bottom: 13px;
 }
 .futor-button{
+	text-decoration: none;
 	display: inline-block;
 	border: 1px solid #ffffff;
 	background-color: transparent;
