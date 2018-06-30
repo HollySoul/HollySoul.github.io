@@ -20,6 +20,7 @@
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -28,14 +29,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-7">
-				<img class="header-img" src="img/computer.png" alt="Монитор">
+				<img class="header-img wow fadeInLeftBig" src="img/computer.png" alt="Монитор">
 			</div>
 			<!-- /.col-7 -->
 			  <div class="col-lg-5">
-				<p class="header-pretitle"> Веб-разработчик </p>
-				<h1 class="header-title">Стас Дорохов</h1>	
-				<p class="header-subtitle"> Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
-				<div class="header-button-block">
+				<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s"> Веб-разработчик </p>
+				<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Стас Дорохов</h1>	
+				<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s"> Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
+				<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
 					<a href="https://vk.me/z1oi_kaktyc" class="but">Связаться</a>
 				<small>*Это бесплатно</small>
 				</div>
@@ -50,7 +51,7 @@
 
 <section class="portf">
 <div class="container">
-	<div class="portf-block">
+	<div class="portf-block wow fadeIn">
 	<h2 class="portf-title">Портфолио</h2>
 	<p class="portf-subtitle">Мои работы</p>
 	<div class="row">
@@ -90,10 +91,10 @@
 			<div class="col-md-4">
 				<div class="soc-block">
 					<p>Подпишитесь:</p>
-					<a href="#"><img src="img/facebook-logo-button.png" alt="Фуйсбук	"></a>
-					<a href="#"><img src="img/telegram-symbol.png" alt="Телеграм"></a>
-					<a href="https://vk.com/z1oi_kaktyc"><img src="img/vk-social-logotype.png" alt="Вк"></a>
-					<a href="#"><img src="img/youtube-symbol.png" alt="Ютуб"></a>
+					<a href="#"><img class="wow bounceInDown" data-wow-delay="0.1s" src="img/facebook-logo-button.png" alt="Фуйсбук	"></a>
+					<a href="#"><img class="wow bounceInDown" data-wow-delay="0.2s" src="img/telegram-symbol.png" alt="Телеграм"></a>
+					<a href="https://vk.com/z1oi_kaktyc"><img class="wow bounceInDown " data-wow-delay="0.3s" src="img/vk-social-logotype.png" alt="Вк"></a>
+					<a href="#"><img class="wow bounceInDown " data-wow-delay="0.4s" src="img/youtube-symbol.png" alt="Ютуб"></a>
 				</div>
 			</div>
 			<!-- /.col-4 -->
@@ -109,6 +110,10 @@
 	</div>
 	<!-- /.container -->
 </footer>
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 
 </body>
 </html>
